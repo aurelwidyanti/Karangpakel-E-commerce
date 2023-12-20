@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $('#pall').click(function(){
+        $('#all').removeClass('d-none');
+        $('#makanan').addClass('d-none');
+        $('#minuman').addClass('d-none');
+        $('#kerajinan').addClass('d-none');
+    });
+    $('#pmakanan').click(function(){
+        $('#all').addClass('d-none');
+        $('#makanan').removeClass('d-none');
+        $('#minuman').addClass('d-none');
+        $('#kerajinan').addClass('d-none');
+    });
+    $('#pminuman').click(function(){
+        $('#all').addClass('d-none');
+        $('#makanan').addClass('d-none');
+        $('#minuman').removeClass('d-none');
+        $('#kerajinan').addClass('d-none');
+    });
+    $('#pkerajinan').click(function(){
+        $('#all').addClass('d-none');
+        $('#makanan').addClass('d-none');
+        $('#minuman').addClass('d-none');
+        $('#kerajinan').removeClass('d-none');
+    });
+
+})
